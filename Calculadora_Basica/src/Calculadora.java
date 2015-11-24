@@ -57,7 +57,7 @@ public class Calculadora extends Operacion{
     	
     	calc.calcular(op); 
     	
-    	System.out.print( "Adios" );
+    	System.out.print( "Adios." );
 	}
 	
 	
