@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S4v4MJJjEeWWosNVy-DqsQ" name="NewModel">
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_WcQbMJJjEeWWosNVy-DqsQ" name="Calculadora">
-    <ownedLiteral xmi:id="_abhGEJJjEeWWosNVy-DqsQ" name="operaciones">
-      <specification xmi:type="uml:LiteralInteger" xmi:id="_abhtIJJjEeWWosNVy-DqsQ"/>
-    </ownedLiteral>
-  </packagedElement>
-</uml:Model>
