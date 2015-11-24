@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YU9noJLDEeWOiIlSNpOqgw" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_a_q6YJLDEeWOiIlSNpOqgw" name="calculadora">
+    <packageImport xmi:id="_a_q6YZLDEeWOiIlSNpOqgw"/>
+    <generalization xmi:id="_a_q6YpLDEeWOiIlSNpOqgw" general="_a_zdQJLDEeWOiIlSNpOqgw" isSubstitutable="false"/>
+    <ownedAttribute xmi:id="_a_rhcJLDEeWOiIlSNpOqgw" name="numeroUno" visibility="private" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_rhcZLDEeWOiIlSNpOqgw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_rhcpLDEeWOiIlSNpOqgw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_a_rhc5LDEeWOiIlSNpOqgw" name="numeroDos" visibility="private" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_rhdJLDEeWOiIlSNpOqgw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_rhdZLDEeWOiIlSNpOqgw"/>
+      <defaultValue xmi:type="uml:Expression" xmi:id="_a_rhdpLDEeWOiIlSNpOqgw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_a_rhd5LDEeWOiIlSNpOqgw" name="resultado">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_rheJLDEeWOiIlSNpOqgw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_rheZLDEeWOiIlSNpOqgw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_a_rhepLDEeWOiIlSNpOqgw" name="IngresaNumero">
+      <ownedParameter xmi:id="_a_rhe5LDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_rhfJLDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a_rhfZLDEeWOiIlSNpOqgw" name="calcular">
+      <ownedParameter xmi:id="_a_rhfpLDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_rhf5LDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a_zdQJLDEeWOiIlSNpOqgw" name="operaciones">
+    <ownedOperation xmi:id="_a_zdQZLDEeWOiIlSNpOqgw" name="suma">
+      <ownedParameter xmi:id="_a_zdQpLDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_zdQ5LDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a_zdRJLDEeWOiIlSNpOqgw" name="resta">
+      <ownedParameter xmi:id="_a_zdRZLDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_zdRpLDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a_zdR5LDEeWOiIlSNpOqgw" name="multiplicacion">
+      <ownedParameter xmi:id="_a_zdSJLDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_zdSZLDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a_zdSpLDEeWOiIlSNpOqgw" name="division">
+      <ownedParameter xmi:id="_a_zdS5LDEeWOiIlSNpOqgw" name="a"/>
+      <ownedParameter xmi:id="_a_zdTJLDEeWOiIlSNpOqgw" name="b"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
