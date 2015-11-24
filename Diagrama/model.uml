@@ -2,12 +2,11 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YU9noJLDEeWOiIlSNpOqgw" name="NewModel">
   <packagedElement xmi:type="uml:Class" xmi:id="_a_q6YJLDEeWOiIlSNpOqgw" name="calculadora">
     <packageImport xmi:id="_a_q6YZLDEeWOiIlSNpOqgw"/>
-    <generalization xmi:id="_a_q6YpLDEeWOiIlSNpOqgw" general="_a_zdQJLDEeWOiIlSNpOqgw" isSubstitutable="false"/>
-    <ownedAttribute xmi:id="_a_rhcJLDEeWOiIlSNpOqgw" name="numeroUno" visibility="private" aggregation="composite">
+    <ownedAttribute xmi:id="_a_rhcJLDEeWOiIlSNpOqgw" name="numeroUno" visibility="private">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_rhcZLDEeWOiIlSNpOqgw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_rhcpLDEeWOiIlSNpOqgw"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_a_rhc5LDEeWOiIlSNpOqgw" name="numeroDos" visibility="private" aggregation="composite">
+    <ownedAttribute xmi:id="_a_rhc5LDEeWOiIlSNpOqgw" name="numeroDos" visibility="private">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_rhdJLDEeWOiIlSNpOqgw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_rhdZLDEeWOiIlSNpOqgw"/>
       <defaultValue xmi:type="uml:Expression" xmi:id="_a_rhdpLDEeWOiIlSNpOqgw"/>
