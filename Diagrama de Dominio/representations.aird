@@ -41,7 +41,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_nf_hpJJmEeWWosNVy-DqsQ" red="255" green="255" blue="255"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Enumeration']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_pvYxYJJmEeWWosNVy-DqsQ" name="operacion">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_pvYxYJJmEeWWosNVy-DqsQ" name="Operacion">
           <target xmi:type="uml:EnumerationLiteral" href="model.uml#_pvEoUJJmEeWWosNVy-DqsQ"/>
           <semanticElements xmi:type="uml:EnumerationLiteral" href="model.uml#_pvEoUJJmEeWWosNVy-DqsQ"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_pvZYcJJmEeWWosNVy-DqsQ" labelAlignment="LEFT">
