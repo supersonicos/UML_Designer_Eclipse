@@ -186,7 +186,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_8Mn30ZJdEeWkiph_wPmaeA" name="calcular(a : )">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_8Mn30ZJdEeWkiph_wPmaeA" name="calcular(a : EChar)">
           <target xmi:type="uml:Operation" href="model.uml#_8LugAJJdEeWkiph_wPmaeA"/>
           <semanticElements xmi:type="uml:Operation" href="model.uml#_8LugAJJdEeWkiph_wPmaeA"/>
           <semanticElements xmi:type="uml:Parameter" href="model.uml#_8LugAZJdEeWkiph_wPmaeA"/>

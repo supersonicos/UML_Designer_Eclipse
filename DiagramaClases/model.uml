@@ -42,7 +42,9 @@
       <ownedParameter xmi:id="_ODAOEJJfEeWkiph_wPmaeA" name="b"/>
     </ownedOperation>
     <ownedOperation xmi:id="_8LugAJJdEeWkiph_wPmaeA" name="calcular">
-      <ownedParameter xmi:id="_8LugAZJdEeWkiph_wPmaeA" name="a"/>
+      <ownedParameter xmi:id="_8LugAZJdEeWkiph_wPmaeA" name="a">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EChar"/>
+      </ownedParameter>
     </ownedOperation>
   </packagedElement>
 </uml:Model>
